@@ -1,0 +1,13 @@
+[package]
+name = "merlin_btc"
+version = "1.0.0"
+authors = []
+
+[addresses]
+std = "0x1"
+merlin_btc = "_"
+
+[dependencies.AptosFramework]
+git = "https://github.com/movementlabsxyz/aptos-core"
+rev = "movement"
+subdir = "aptos-move/framework/aptos-framework"
